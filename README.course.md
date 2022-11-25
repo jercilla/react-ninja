@@ -25,3 +25,18 @@ Components are, essentially, functions returning (usually) a `jsx`.
 
 https://www.youtube.com/watch?v=pnhO8UaCgxg
 
+
+#5 - Multiple components
+
+https://www.youtube.com/watch?v=0sSYmRImgRY
+
+Component tree:
+    App.js (root)
+        Navbar.js
+        BlogDetails.js
+        Sidebar.js
+               Categories.js
+               Tags.js
+
+New file: Navbar.js + simple react snippets: sfc (stateless functional component)
+
