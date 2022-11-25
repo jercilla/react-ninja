@@ -20,3 +20,8 @@ React uses `jsx` instead of `html`
     - `className` vs `class`
 
 Components are, essentially, functions returning (usually) a `jsx`.
+
+#4 - Dynamic values in templates
+
+https://www.youtube.com/watch?v=pnhO8UaCgxg
+
