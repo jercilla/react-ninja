@@ -66,4 +66,8 @@ Browser extension: React Developer Tools -> Component & Profile tools
 https://www.youtube.com/watch?v=tHjxSVaj_wY
 
 
+#11 - Props
+
+https://www.youtube.com/watch?v=PHaECbrKgs0
+
 
