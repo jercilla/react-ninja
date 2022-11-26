@@ -51,5 +51,10 @@ Not component scoped styles but global. index.css vs App.css/component.css
 https://www.youtube.com/watch?v=0XSDAup85SA
 
 
+#8 - Using state (stateHook)
+
+https://www.youtube.com/watch?v=4pO-HcG2igk
+
+
 
 
