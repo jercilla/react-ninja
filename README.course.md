@@ -114,3 +114,9 @@ Loading data async requires not rendering component until data is fetched
 
 https://www.youtube.com/watch?v=qtheqr0jgIQ
 
+
+#19 - Fectch errors
+
+https://www.youtube.com/watch?v=DTBta08fXGU
+
+

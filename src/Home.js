@@ -4,6 +4,7 @@ import BlogList from "./BlogList";
 const Home = () => {
     const [blogs, setBlogs] = useState(null)
     const [isLoading, setIsLoading] = useState(false)
+    const [isError, setIsError] = useState(false)
 
     useEffect(() =>{
         console.debug('useEffect', blogs)
@@ -12,8 +13,13 @@ const Home = () => {
             .then((res) => res.json())
             .then((data) => {
                 setBlogs(data)
-                setIsLoading(false)
+                setIsError(false)
             })
+            .catch(err => {
+                console.debug('Error:', err)
+                setIsError(true)
+            })
+            .finally(()=> setIsLoading(false))
     },[])
 
     const handleDelete = (id) => {
@@ -24,6 +30,7 @@ const Home = () => {
     return (
         <div className="home">
             {isLoading && <div>Loading...</div>}
+            {isError && <div>ERROR</div>}
             {blogs && <BlogList blogs={blogs} title="All Blogs" handleDelete={handleDelete}/>}
         </div>
     );
