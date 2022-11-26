@@ -76,4 +76,16 @@ https://www.youtube.com/watch?v=PHaECbrKgs0
 https://www.youtube.com/watch?v=-YpnB-zlkPU
 
 
+#13 - Props and functions
+
+https://www.youtube.com/watch?v=CWEOYFzgOJs
+
+
+#14 - useEffect
+
+https://www.youtube.com/watch?v=gv9ugDJ1ynU
+
+useEffect runs on every data change, so don't change the state inside useEffect to avoid infinite loop
+
+
 
