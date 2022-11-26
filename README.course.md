@@ -40,3 +40,11 @@ Component tree:
 
 New file: Navbar.js + simple react snippets: sfc (stateless functional component)
 
+#6 - Adding Styles
+
+https://www.youtube.com/watch?v=NbTrGcz4DW8
+
+Not component scoped styles but global. index.css vs App.css/component.css
+
+
+
