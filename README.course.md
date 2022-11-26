@@ -46,5 +46,10 @@ https://www.youtube.com/watch?v=NbTrGcz4DW8
 
 Not component scoped styles but global. index.css vs App.css/component.css
 
+#7 - Click events and functions
+
+https://www.youtube.com/watch?v=0XSDAup85SA
+
+
 
 
