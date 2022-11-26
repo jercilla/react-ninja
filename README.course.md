@@ -61,5 +61,9 @@ https://www.youtube.com/watch?v=rb1GWqCJid4
 
 Browser extension: React Developer Tools -> Component & Profile tools
 
+#10 - Output lists
+
+https://www.youtube.com/watch?v=tHjxSVaj_wY
+
 
 
