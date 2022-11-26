@@ -110,3 +110,7 @@ https://www.youtube.com/watch?v=qdCHEUaFhBk
 Loading data async requires not rendering component until data is fetched 
 (aka conditional templating)
 
+#18 - Conditional Loading Message
+
+https://www.youtube.com/watch?v=qtheqr0jgIQ
+

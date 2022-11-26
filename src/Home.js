@@ -3,12 +3,17 @@ import BlogList from "./BlogList";
 
 const Home = () => {
     const [blogs, setBlogs] = useState(null)
+    const [isLoading, setIsLoading] = useState(false)
 
     useEffect(() =>{
         console.debug('useEffect', blogs)
+        setIsLoading(true)
         fetch('http://localhost:8000/blogs')
             .then((res) => res.json())
-            .then((data) => setBlogs(data))
+            .then((data) => {
+                setBlogs(data)
+                setIsLoading(false)
+            })
     },[])
 
     const handleDelete = (id) => {
@@ -18,6 +23,7 @@ const Home = () => {
 
     return (
         <div className="home">
+            {isLoading && <div>Loading...</div>}
             {blogs && <BlogList blogs={blogs} title="All Blogs" handleDelete={handleDelete}/>}
         </div>
     );
