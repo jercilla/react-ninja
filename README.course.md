@@ -101,3 +101,12 @@ $ npx json-server --watch data/db.json --port 8000
     GET     /blogs/{id}
     POST    /blogs
     DELETE  /blogs/{id}
+
+
+#17 - Fetch data
+
+https://www.youtube.com/watch?v=qdCHEUaFhBk
+
+Loading data async requires not rendering component until data is fetched 
+(aka conditional templating)
+
