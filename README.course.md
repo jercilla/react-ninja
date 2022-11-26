@@ -55,6 +55,11 @@ https://www.youtube.com/watch?v=0XSDAup85SA
 
 https://www.youtube.com/watch?v=4pO-HcG2igk
 
+#9 - React dev tools
+
+https://www.youtube.com/watch?v=rb1GWqCJid4
+
+Browser extension: React Developer Tools -> Component & Profile tools
 
 
 
