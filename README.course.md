@@ -91,5 +91,13 @@ useEffect runs on every data change, so don't change the state inside useEffect 
 
 Second parameter of useEffect is an array of states we wan't to 'monitor'
 
+#16 - JSON Server
 
+https://www.youtube.com/watch?v=eao7ABGFUXs
 
+Fake JSON API Server: /data/db.json
+$ npx json-server --watch data/db.json --port 8000
+    GET     /blogs
+    GET     /blogs/{id}
+    POST    /blogs
+    DELETE  /blogs/{id}
