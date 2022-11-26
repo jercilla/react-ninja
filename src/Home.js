@@ -10,7 +10,7 @@ const Home = () => {
 
     useEffect(() =>{
         console.debug('useEffect', blogs)
-    })
+    },[blogs])
 
     const handleDelete = (id) => {
         const filteredBlogs = blogs.filter((i) => i.id !== id)

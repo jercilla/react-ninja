@@ -87,5 +87,9 @@ https://www.youtube.com/watch?v=gv9ugDJ1ynU
 
 useEffect runs on every data change, so don't change the state inside useEffect to avoid infinite loop
 
+#15 - useEffect dependencies
+
+Second parameter of useEffect is an array of states we wan't to 'monitor'
+
 
 
