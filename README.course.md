@@ -120,3 +120,9 @@ https://www.youtube.com/watch?v=qtheqr0jgIQ
 https://www.youtube.com/watch?v=DTBta08fXGU
 
 
+#20 - Custom hook
+
+https://www.youtube.com/watch?v=DTBta08fXGU
+
+usefecth.js -> useFetch (custom hooks needs to start with 'use')
+
