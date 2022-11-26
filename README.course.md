@@ -71,3 +71,9 @@ https://www.youtube.com/watch?v=tHjxSVaj_wY
 https://www.youtube.com/watch?v=PHaECbrKgs0
 
 
+#12 . Reusing components
+
+https://www.youtube.com/watch?v=-YpnB-zlkPU
+
+
+
