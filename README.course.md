@@ -165,3 +165,10 @@ $ npm install react-router-dom
 
 App.js -> import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
+
+#22 - Route Match
+
+https://www.youtube.com/watch?v=DTBta08fXGU
+
+Route path by default matches by 'includes'. Change to 'exact' for normal use.
+
