@@ -9,6 +9,7 @@ const useFetch = (url) => {
         console.debug('useEffect', data)
         const abortController = new AbortController()
         setIsLoading(true)
+        setIsError(false)
         fetch(url, {signal: abortController.signal})
             .then((res) => res.json())
             .then((data) => {
