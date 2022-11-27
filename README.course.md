@@ -226,3 +226,7 @@ https://www.youtube.com/watch?v=TmVqwhBUiSM
 
 https://www.youtube.com/watch?v=Wb-0CkLiyQk
 
+
+#32 - 404 page & next steps
+
+https://www.youtube.com/watch?v=XW0t2lk4Ffo
