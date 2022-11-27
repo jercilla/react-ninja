@@ -110,6 +110,30 @@ https://www.youtube.com/watch?v=qdCHEUaFhBk
 Loading data async requires not rendering component until data is fetched 
 (aka conditional templating)
 
+[useEffect(fn, []) is not the new componentDidMount()](https://reacttraining.com/blog/useEffect-is-not-the-new-componentDidMount/)
+
+>This code would work, until you have a situation where the UserProfile has its uid changed while it's mounted. If you have the extra hooks linting rules installed though, you would get a warning until you did [uid] as the dependency array. With that in place, the hooks version is doing what would have been a componentDidMount and a componentDidUpdate at the same time. So you see, the very question of "Is useEffect with an empty dependency array the new version of componentDidMount?" is a flawed question to begin with componentDidMount will most often not be refactored to useEffect(fn, [])
+>
+>By the way, don't forget to do a cleanup function as well. This will prevent the bug of setting state on an unmounted component and setting stale state when the uid changes:
+
+```
+useEffect(() => {
+  let isCurrent = true
+  getUser(uid).then(user => {
+    if (isCurrent) {
+      setUser(user)
+    }
+  })
+  return () => {
+    isCurrent = false
+  }
+}, [uid])
+```
+
+Ver también [From Classes to Hooks](https://reactjs.org/docs/hooks-faq.html#from-classes-to-hooks)
+
+
+
 #18 - Conditional Loading Message
 
 https://www.youtube.com/watch?v=qtheqr0jgIQ
@@ -125,4 +149,19 @@ https://www.youtube.com/watch?v=DTBta08fXGU
 https://www.youtube.com/watch?v=DTBta08fXGU
 
 usefecth.js -> useFetch (custom hooks needs to start with 'use')
+
+
+#21 - The react router
+
+https://www.youtube.com/watch?v=DTBta08fXGU
+
+Para evitar que se cargue una página nueva por cada 'link', react intercepta las llamdas y se encarga de mostrar en pantalla el componente asociado a cada url:
+
+/           -> Home.js
+/contact    -> Contact.js
+/about      -> About.js
+
+$ npm install react-router-dom
+
+App.js -> import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 
