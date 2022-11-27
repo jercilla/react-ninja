@@ -187,3 +187,11 @@ https://www.youtube.com/watch?v=DTBta08fXGU
 To prevent errors when changing route *before* the previous has finished processing (ie: fetch to server), we need to cancel/cleanup previous hook.
 
 
+#25 Route parameters
+
+https://www.youtube.com/watch?v=DTBta08fXGU
+
+ie: /blogs/123
+
+
+
