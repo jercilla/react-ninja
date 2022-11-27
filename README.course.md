@@ -172,3 +172,11 @@ https://www.youtube.com/watch?v=DTBta08fXGU
 
 Route path by default matches by 'includes'. Change to 'exact' for normal use.
 
+
+#23 - Router link
+
+https://www.youtube.com/watch?v=DTBta08fXGU
+
+Replace <a href> with <Link to> to prevent/intercept calls to server.
+
+
