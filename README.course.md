@@ -222,3 +222,7 @@ https://www.youtube.com/watch?v=EcRFYF4B3IQ
 https://www.youtube.com/watch?v=TmVqwhBUiSM
 
 
+#31 - Deleting blogs
+
+https://www.youtube.com/watch?v=Wb-0CkLiyQk
+
