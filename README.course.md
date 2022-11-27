@@ -180,3 +180,10 @@ https://www.youtube.com/watch?v=DTBta08fXGU
 Replace <a href> with <Link to> to prevent/intercept calls to server.
 
 
+#24 - useEffect Cleanup
+
+https://www.youtube.com/watch?v=DTBta08fXGU
+
+To prevent errors when changing route *before* the previous has finished processing (ie: fetch to server), we need to cancel/cleanup previous hook.
+
+
